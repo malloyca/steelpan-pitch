@@ -1,0 +1,12 @@
+# macOS bullshit
+**/.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Project files
+/checkpoints/
+/data/
+/models/
