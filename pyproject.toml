@@ -1,0 +1,17 @@
+[project]
+name = "steelpan-pitch"
+version = "0.1.0"
+description = "Single-frame pitch detection for steelpan recordings"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "ipykernel>=7.3.0",
+    "librosa>=0.11.0",
+    "numpy>=1.26.4",
+    "requests>=2.34.2",
+    "soundfile>=0.14.0",
+    "tensorflow==2.15",
+    "tensorflow-macos==2.15; sys_platform == 'darwin' and platform_machine == 'arm64'",
+    "tensorflow-metal==1.1; sys_platform == 'darwin' and platform_machine == 'arm64'",
+    "tqdm>=4.70.0",
+]
